@@ -45,7 +45,7 @@ def naiveb(x,z,a):  #X IS THE ALREADY GIVEN COORDINATES. Z IS THE ALREADY GIVEN 
                 count+=1
         print(count)
         print(cz)
-        prob=((cz/219)*(219/300))/(count/300)
+        prob=((cz/co)*(co/300))/(count/300) #300 is the total number of observation 
         print(prob)
         if prob<=0.5:
             ar.append(1)
